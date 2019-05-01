@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+<head>
+<meta charset="UTF-8">
+<title>Hornstein inc.</title>
+
+</head>
+<div class="navBar">
+</div>
+<body>
+
+
+
+
+
+
+</body>
+</html>
