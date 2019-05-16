@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/user/Desktop/Projects/Training"/>
 			<item value="/Users/user/Desktop/Projects/gs-handling-form-submission"/>
 			<item value="/Users/user/Desktop/Projects/gs-handling-form-submission-master"/>
 		</list>
