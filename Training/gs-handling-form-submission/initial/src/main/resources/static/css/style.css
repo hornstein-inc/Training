@@ -1,0 +1,156 @@
+.login-option{
+	margin-bottom: 6px;
+	font-size: large;
+	bottom: 0;
+	font: sans-serif;
+	
+	
+	
+	
+}
+
+
+.choice-login{
+	
+  width: 50%;
+  height: 100%;
+  float: left;
+  border-right: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-bottom: 3px solid black;
+  
+  
+ 
+  		
+}
+
+.choice-login:hover {
+	
+	background-color: #a8e87d;
+	
+}
+
+
+.loginNav{
+  
+  width: 100%;
+  height: 60px;
+  background-color: white;
+	
+	
+}
+
+.loginPanel-container{
+	
+	
+	text-align: center;
+	
+}
+
+
+.loginPanel{
+	
+  margin-top: 50px;
+  background-color: graytext;
+  width: 350px;
+  height: 400px;
+  display: inline-block;
+		
+}
+form{
+	text-align: center;
+	
+}
+
+.title{
+	
+	text-align: center;
+	font: sans-serif;
+	
+	
+}
+
+.subtitle{
+	text-align: center;
+	font: sans-serif;
+	
+}
+
+input{
+	padding: 10px;
+	margin-top: 10px;
+	font-size: medium;
+	background-color: teal;
+}
+
+.resultDiv{
+	text-align: center;
+	box-sizing: border-box;
+	width: 50%;
+	border: 5px solid red;
+		
+	
+	
+}
+
+.resultText{
+	font: sans-serif;
+	font-size: small;
+}
+
+.navBar{
+	
+	height: 50px;
+	width: 100%;
+	border-radius: 10%;
+	text-align: center;
+	
+	
+	
+}
+
+li{
+	
+	display: inline-block;
+	text-align: center;
+}
+
+li a{
+	
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+	
+	
+}
+
+li a:hover {
+	
+	background-color: black;
+	
+	
+}
+
+.navMenu{
+	
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  border-radius: 20%;
+  text-align: center;
+}
+	
+	
+
+
+body{
+	
+	background-color: silver;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+<head>
+<meta charset="UTF-8">
+<title>InnerTester </title>
+
+</head>
+
+<body>
+
+<div class="navBar">
+<ul class="navMenu">
+<li><a id="homeBtn" onclick="">Home </a></li>
+<li><a id="aboutUsBtn" href="" >About us </a></li>
+<li><a id="contactBtn" href="" >Contact </a></li>
+</ul>
+</div>
+
+<div class="loginPanel-container">
+<div class="loginPanel">
+<div class="loginNav">
+<div class="choice-login" id="choice-login">
+<h2 class="login-option">Login.</h2>
+<form action="#" th:action="@{/login}" th:object="${user}" method="post">
+
+
+<p><input type="submit" value="Submit" /></p>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+
+</body>
+<script th:inline="javascript">
+console.log("Working....");
+console.log(window.location.pathname);
+var currectPath = window.location.pathname;
+
+if(currectPath == "/"){
+	
+	document.getElementById("homeBtn").style.backgroundColor = "black";
+	document.getElementById("choice-login").style.backgroundColor = "#a8e87d";
+}
+
+
+</script>
+</html>
